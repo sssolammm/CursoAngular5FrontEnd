@@ -5,15 +5,15 @@ import { Component } from '@angular/core';
 	templateUrl: '../views/home.html'
 })
 
-export class HomeComponent{
+export class HomeComponent {
 	public titulo: string;
 
-	constructor(){
-		this.titulo = "Webapp de productos con angular 5";
+	constructor() {
+		this.titulo = 'Webapp de productos con angular 5';
 	}
 
-	ngOnInit(){
-		console.log("se ha cargado el componente home.component.ts");
+	ngOnInit() {
+		console.log('Se ha cargado el componente home.component.ts');
 	}
 
 
